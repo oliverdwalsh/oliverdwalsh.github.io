@@ -1,0 +1,38 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(46,105,163);
+}
+
+h2 {
+	font-size: 56px;
+}
+
+
+.body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 250px 0;
+margin: 30px;
+  color: navey;
+  background-image:
+    url("download.jpeg");
+background-size: cover;
+  background-size: cover;
+}
+
+
+p {
+	color: black;
+	font-size: 2rem;
+}
+
+#footer{
+  font-size: 0.75rem;  
+}
