@@ -20,11 +20,14 @@ h2 {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
   padding: 250px 0;
 margin: 30px;
-  color: navey;
-  background-image:
-    url("download.jpeg");
-background-size: cover;
-  background-size: cover;
+  color: #ffffff;
+  
+  
+	.hero{  
+	  background-image:
+		url("rainforest.jpeg");
+	  background-size: cover;
+	}
 }
 
 
