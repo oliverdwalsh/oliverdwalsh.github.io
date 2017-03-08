@@ -62,14 +62,14 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #CCCCCC;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color: rgb(30, 60, 100);
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: rgb(63, 123, 199);
 }
 
 .btn-secondary {
