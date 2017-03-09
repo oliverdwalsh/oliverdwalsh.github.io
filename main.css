@@ -5,6 +5,8 @@ body {
 
 header {
   padding: 20px 0;
+  /*background-color: #000000;*/
+  width cover;
 }
 
 header .row,
@@ -28,11 +30,19 @@ header p {
   margin: 0;
 }
 
+body .container{
+	/*background-color:white;*/
+}
+
+body .form{
+  margin-left: 37%;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
   background-image: url('https://c1.staticflickr.com/4/3122/3127152549_966114fee3_b.jpg');
-  background-size: cover;
+  background-size: auto;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
@@ -64,7 +74,7 @@ header p {
   background-image: url('https://pixabay.com/p-928246/?no_redirect');
   background-size: cover;
   color: #000000;
-  height: 300px;
+  height: 200px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -74,7 +84,7 @@ header p {
   background-image: url('https://pixabay.com/p-928246/?no_redirect');
   background-size: cover;
   color: #000000;
-  height: 300px;
+  height: 200px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -96,8 +106,8 @@ section .row img {
   width: 100%;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+.col-sm-6 {
+  margin: 30px 0 30px;
 }
 
 .btn.btn-primary {
@@ -118,6 +128,51 @@ section .row img {
   color: #ffffff;
   margin: 0 0 30px;
 }
+
+/*-----------------contact input------------*/
+
+input, textarea{
+  padding: 8px;
+  border: 1px solid #C9C9C9;
+  width: 300px;
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+  -moz-box-shadow:  rgba(0,0,0,0.2) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 8px;
+}
+
+textarea{
+  width: 400px;
+  height: 150px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea: focus{
+  border: 1px solid #DADADA;
+  box-shadow: rgba(0,0,0,0.5) 0px 0px 8px;
+  -moz-box-shadow:  rgba(0,0,0,0.5) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 0px 8px;
+}
+
+.form label{
+  text-align: left;
+  margin-left: 5px;
+  padding-top: 15px;
+  vertical-align: top;
+  display: block;
+  float: top;
+}
+
+.submit input{
+  width: 100px;
+  margin-top: 15px;
+  background-color: #474E69;
+  color: #FFFFFF;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/*-----------------contact input------------*/
 
 footer {
   font-size: 12px;

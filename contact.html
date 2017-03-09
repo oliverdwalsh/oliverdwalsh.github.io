@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!--THIS IS A COMMENT-->
 	
-  <title>Oliver Walsh</title>
+  <title>Contact</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <meta charset="utf-8" />
 
@@ -15,35 +17,60 @@
 <body>
   <header class="container">
     <div class="row">
-	  <h1 class="col-sm-8"><img src="logo.jpg" alt="logo" WIDTH = 120 HEIGHT = 60/></h1>
+	   <h1 class="col-sm-8">
+  	   <a href = "http://www.oliver-walsh.com/" >
+  	     <img src="logo.jpg" alt="logo" WIDTH = 120 HEIGHT = 60/>
+  	   </a>
+	   </h1>
+    
       <nav class="col-sm-4 text-right">
-		<p><a href="index.html">Home</a></p>
-		<p><a href="portfolio.html">Portfolio</a></p>
-		<p><a href="resume.html">Resume</a></p>
-		<p><a href="about.html">About</a></p>
-		<p><a href="contact.html">Contact</a></p>
+    		<p><a href="index.html">Home</a></p>
+    		<p><a href="portfolio.html">Portfolio</a></p>
+    		<p><a href="resume.html">Resume</a></p>
+    		<p><a href="about.html">About</a></p>
+    		<p><a href="contact.html">Contact</a></p>
       </nav>
     </div>
+
+    <section class="jumbotron_contact text-center">
+      <div class="container">
+          <h2>Contact Me</h2>
+
+          <h3>Note: Unfortunatly this page is currently not fully implemented, <br> please direct all communitcations to oliverw91@hotmail.com</h3>
+      </div>
+    </section>
+
   </header>
-  
-  <section class="jumbotron_contact">
-    <div class="container">
-        <h2>Contact Details</h2>
-    </div>
-  </section>
-  
+
   <section class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <p><br><b>Email:</b></p>
-		<p>sample@gmail.com</p>
-      </div>
-	  
-      <div class="col-sm-6">
-        <p><br><b>Mobile:</b></p>
-		<p>+353 80 000 0000</p>
-      </div>
-	</div>   
+    
+    <form class="form">
+
+      <p class ="name">
+        <label for="name">Name:</label>
+        <input type="text" name = "name" id = "name" placeholder="John Doe" />
+      </p>
+
+      <p class ="email">
+        <label for="email">Email:</label>
+        <input type="text" name = "email" id = "name" placeholder="johndoe@example.com" />
+      </p>
+
+      <p class ="subject">
+        <label for="subject">Subject:</label>
+        <input type="text" name = "Subject" id = "name" placeholder="" />
+      </p>
+
+      <p class ="text">
+        <label for="text">Message:</label>
+        <textarea name = "text" placeholder="Ask me anything."/></textarea>        
+      </p>
+
+      <p class="submit">
+        <input type="submit" value = "Send"/>
+      </p>
+
+    </form>
   </section>
   
   <footer class="container"> 
